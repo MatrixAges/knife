@@ -4,6 +4,11 @@
       "description": "Util collections for react, nodejs, web.",
       "author": "Wendao",
       "license": "MIT",
+      "homepage": "https://github.com/matrixages/knife",
+      "repository": {
+            "type": "git",
+            "url": "git+https://github.com/matrixages/knife.git"
+      },
       "exports": {
             "./react": {
                   "default": "./dist/react/index.js",
