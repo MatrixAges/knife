@@ -11,12 +11,10 @@
       },
       "exports": {
             "./react": {
-                  "browser": "./dist/react/index.js",
                   "default": "./dist/react/index.js",
                   "types": "./dist/react/index.d.ts"
             },
             "./node": {
-                  "browser": "./dist/node/index.js",
                   "default": "./dist/node/index.js",
                   "types": "./dist/node/index.d.ts"
             }
