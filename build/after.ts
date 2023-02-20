@@ -1,7 +1,7 @@
 import { moveSync } from 'fs-extra'
 import { resolve } from 'path'
 
-const arr_dist = ['node', 'react', 'storage']
+import { libs } from './common'
 
-arr_dist.map((item) => moveSync(`dist/${item}`, resolve(`${process.cwd()}/${item}`)))
+libs.map((item) => moveSync(`dist/${item}`, resolve(`${process.cwd()}/${item}`)))
 
