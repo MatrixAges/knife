@@ -1,6 +1,6 @@
 {
       "name": "@matrixages/knife",
-      "version": "1.0.1",
+      "version": "1.1.1",
       "description": "Util collections for react, nodejs, web.",
       "author": "Wendao",
       "license": "MIT",
@@ -23,6 +23,13 @@
                   "types": "./storage/index.d.ts"
             }
       },
+      "files": [
+            "./node",
+            "./react",
+            "./storage",
+            "./package.json",
+            "./README.md"
+      ],
       "scripts": {
             "clear": "tsx ./build/clear.ts",
             "move": "tsx ./build/after.ts",
