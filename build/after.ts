@@ -1,7 +1,7 @@
+import glob from 'fast-glob'
 import { moveSync } from 'fs-extra'
 import { resolve } from 'path'
 
-import { libs } from './common'
+const dts = glob.sync(['dist/**/*.d.ts'])
 
-libs.map((item) => moveSync(`dist/${item}`, resolve(`${process.cwd()}/${item}`)))
-
+dts.map((path) => moveSync(path, resolve(path.replace('dist/', '')), { overwrite: true }))
