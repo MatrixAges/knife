@@ -28,3 +28,8 @@ export const storage_lib = defineConfig({
 	input: 'src/storage/index.ts',
 	output: getConfig('storage').output
 })
+
+export const types_lib = defineConfig({
+	input: 'src/types/index.ts',
+	output: getConfig('types').output
+})

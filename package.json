@@ -21,12 +21,17 @@
             "./storage": {
                   "default": "./storage/index.js",
                   "types": "./storage/index.d.ts"
+            },
+            "./types": {
+                  "default": "./types/index.js",
+                  "types": "./types/index.d.ts"
             }
       },
       "files": [
             "./node",
             "./react",
             "./storage",
+            "./types",
             "./package.json",
             "./README.md"
       ],
@@ -59,6 +64,6 @@
             "rollup": "^3.15.0",
             "rollup-plugin-swc3": "^0.8.0",
             "tsx": "^3.12.3",
-            "typescript": "5.0.0-dev.20230216"
+            "typescript": "5.0.0-dev.20230222"
       }
 }

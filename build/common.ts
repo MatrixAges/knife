@@ -1,1 +1,1 @@
-export const  libs = ['node', 'react', 'storage']
+export const libs = ['node', 'react', 'storage', 'types']
