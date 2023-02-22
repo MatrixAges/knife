@@ -8,6 +8,7 @@ package-lock.json
 node
 react
 storage
+types
 !src/*
 
 # misc
