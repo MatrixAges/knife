@@ -1,5 +1,5 @@
-import { TargetObject } from 'Storage/shared'
-import { getRawType, isObject, transformEval, transformJSON } from 'Storage/utils'
+import { TargetObject } from '@/storage/shared'
+import { getRawType, isObject, transformEval, transformJSON } from '@/storage/utils'
 
 import { createProxyObject } from './object'
 

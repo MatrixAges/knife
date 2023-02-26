@@ -12,10 +12,7 @@
 		"baseUrl": ".",
 		"esModuleInterop": true,
 		"paths": {
-			"@/*": ["./src/*"],
-			"Node/*": ["./src/node/*"],
-			"React/*": ["./src/react/*"],
-			"Storage/*": ["./src/storage/*"]
+			"@/*": ["./src/*"]
 		},
 		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,

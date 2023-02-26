@@ -1,6 +1,6 @@
-import { emit } from 'Storage/extends/watch'
-import { activeEffect, enableTracking, pauseTracking, proxyMap } from 'Storage/shared'
-import { hasChanged, hasOwn, isArray, isIntegerKey } from 'Storage/utils'
+import { emit } from '@/storage/extends/watch'
+import { activeEffect, enableTracking, pauseTracking, proxyMap } from '@/storage/shared'
+import { hasChanged, hasOwn, isArray, isIntegerKey } from '@/storage/utils'
 
 function selfEmit(obj: object, key: string, ...args: any[]) {
 	let actualKey = `${activeEffect.key}.${key}`

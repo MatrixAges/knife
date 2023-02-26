@@ -1,6 +1,6 @@
-import { encode } from 'Storage/proxy/transform'
-import { ExpiresType, prefix, proxyMap } from 'Storage/shared'
-import { isDate, isObject, isString, transformJSON } from 'Storage/utils'
+import { encode } from '@/storage/proxy/transform'
+import { ExpiresType, prefix, proxyMap } from '@/storage/shared'
+import { isDate, isObject, isString, transformJSON } from '@/storage/utils'
 
 export function setExpires(target: object, property: string, value: ExpiresType, receiver: any) {
 	let time: number
