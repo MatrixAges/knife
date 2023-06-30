@@ -12,6 +12,7 @@ module.exports = defineConfig({
 	}, {}),
 	output: {
 		clean: true,
+		path: resolve(process.cwd(), './'),
 		filename: '[name]/index.js',
 		library: {
 			type: 'commonjs'
