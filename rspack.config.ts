@@ -6,13 +6,13 @@ const modules = ['node', 'react', 'storage', 'types']
 
 module.exports = defineConfig({
 	entry: modules.reduce((total, item) => {
-		total[item] = `./src/modules/${item}/index.tsx`
+		total[item] = `./src/${item}/index.ts`
 
 		return total
 	}, {}),
 	output: {
-		clean: true,
-		path: resolve(process.cwd(), './'),
+		clean: false,
+		path: process.cwd(),
 		filename: '[name]/index.js',
 		library: {
 			type: 'commonjs'
