@@ -25,7 +25,7 @@ module.exports = defineConfig({
 		}
 	},
 	devtool: false,
-	externals: ['electron', 'mica-electron'],
+	externals: ['react', 'fast-equals'],
 	watchOptions: {
 		ignored: /node_modules/
 	},
